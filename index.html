@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="pizza1.jpg" alt="Delicious Pizza 1">
+            <img src="pizza2.jpg" alt="Delicious Pizza 2">
+            <img src="pizza3.jpg" alt="Delicious Pizza 3">
+        </div>
+        <div class="carousel-controls">
+            <button id="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button id="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#hot-selling">Hot Selling</a></li>
+            <li><a href="#discount-offer">Discount Offer</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our pizza shop! We serve the best pizzas in town.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@pizzashop.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <section id="hot-selling">
+        <h2>Hot Selling</h2>
+        <p>Check out our best-selling pizzas!</p>
+    </section>
+
+    <section id="discount-offer">
+        <h2>Discount Offer</h2>
+        <p>Get 20% off on your first order!</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
