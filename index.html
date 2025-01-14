@@ -6,12 +6,6 @@
     <title>Pizza Shop</title>
     <link rel="stylesheet" href="resources/styles.css">
 </head>
-<body>
-    
-<video autoplay muted playsinline controls>
-  <source src="images/jpncloud.mp4" type="video/mp4">
-  <source src="images/jpncloud.mp4" type="video/webm">
-</video>
     <div class="carousel">
         <div class="carousel-images">
             <img src="images/IMG-20241221-WA0031.jpg" alt="Delicious Pizza 1">
@@ -23,7 +17,12 @@
             <button id="next" onclick="changeSlide(1)">&#10095;</button>
         </div>
     </div>
-
+<video loop muted autoplay playsinline  class="background-video">
+    <source src="images/jpncloud.mp4" type="video/mp4">
+</video>
+<div class="background-video-content">
+    Your Element content in here.
+</div>
     <nav class="navbar">
         <ul>
             <li><a href="#about">About Us</a></li>
